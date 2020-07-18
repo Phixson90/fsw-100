@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto Mono', monospace; 
+}
+
+header {
+    color: blue;
+    background-color: seagreen;
+    text-align: center;
+}
+table, th, td, tr {
+    border: 1px solid black;
+}
+
+.navbar {
+    background-color: orange;
+    text-align: center;
+    list-style-type: none;
+}
+
+table {
+    margin-top: 120px;
+    background-color: palegreen;
+}
+
+.article {
+    font-family: 'Ranchers', cursive;
+}
+h3 span {
+    background-color: skyblue;
+}
+aside span {
+    background-color: red;
+}
+footer span {
+    background-color: teal;
+}
+footer>p {
+    text-align: center;
+    background-color: yellowgreen;
+}
