@@ -1,0 +1,46 @@
+ul {
+    position: fixed;
+    
+    
+
+}
+li {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    display: inline-block;
+    background-color: yellowgreen;
+}
+.home {
+    position: relative;
+    left: 200px;
+
+}
+.about {
+    position: relative;
+    left: 500px;
+}
+.contact {
+    position: relative;
+    left: 700px;
+}
+.services {
+    position: relative;
+    left: 900px;
+}
+header {
+    position: fixed;
+    top: 0px;
+    z-index: -1;
+    opacity: .7;
+}
+main{
+    position: relative;
+    background-color: teal;
+    top: 275px;
+}
+main div {
+    position: relative;
+    text-align: center;
+    top: 300px;
+}
