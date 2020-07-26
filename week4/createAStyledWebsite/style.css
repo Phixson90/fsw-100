@@ -1,0 +1,196 @@
+* {
+    font-family: 'Rowdies', cursive;
+}
+
+body {
+    background-color: black;
+    z-index: -4;
+}
+
+header {
+    position: relative;
+    background-color: rgb(145, 83, 22);
+    text-align: center;
+    color: lemonchiffon;
+    border: 5px burlywood solid;
+    padding: 5px;
+    margin: 5px;
+    border-style: outset;
+    border-radius: 10px;
+    font-size: 20px;
+    top: 60px;
+    z-index: -1;
+}
+a {
+    color: lemonchiffon;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    padding: 5px;
+    margin: 5px;
+    background-color: darkolivegreen;
+    width: 1450px;
+    border: 2px solid rgb(88, 84, 47);
+    border-radius: 5px;
+    
+}
+
+    .home {
+        position: relative;
+        left: 100px;
+        border: 3px solid rgb(63, 41, 7);
+        border-radius: 5px;
+        padding: 3px;
+        margin: 3px;
+        display: inline-block;
+        background-color: rgb(56, 4, 4);
+    
+    }
+    .about {
+        position: relative;
+        left: 300px;
+        border: 3px solid rgb(63, 41, 7);
+        border-radius: 5px;
+        padding: 3px;
+        margin: 3px;
+        display: inline-block;
+        background-color: rgb(56, 4, 4);
+    }
+    .sales {
+        position: relative;
+        left: 500px;
+        border: 3px solid rgb(63, 41, 7);
+        border-radius: 5px;
+        padding: 3px;
+        margin: 3px;
+        display: inline-block;
+        background-color: rgb(56, 4, 4);
+    }
+    .custom {
+        position: relative;
+        left: 700px;
+        border: 3px solid rgb(63, 41, 7);
+        border-radius: 5px;
+        padding: 3px;
+        margin: 3px;
+        display: inline-block;
+        background-color: rgb(56, 4, 4);
+    }
+    .contact {
+        position: relative;
+        left: 900px;
+        border: 3px solid rgb(63, 41, 7);
+        border-radius: 5px;
+        padding: 3px;
+        margin: 3px;
+        display: inline-block;
+        background-color: rgb(56, 4, 4);
+    }   
+
+    .tools {
+        position: relative;
+        margin: 20px;
+        border-radius: 20px;
+        width: 500px;
+        height: 300px;
+        top: 50px;
+        left: 170px;
+        background-image: url(https://healthyhandyman.com/wp-content/uploads/2019/03/carpenter-tools.jpg);
+        color: rgb(180, 146, 33);
+        text-align: center;
+        z-index: -1;
+        
+    }
+div>p {
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    top: -10px;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    background-color: rgb(54, 54, 23);
+    border-radius: 20px;
+}
+
+h2 {
+    position: relative;
+    Margin:5px;
+    font-size: 50px;
+    background-color: rgb(54, 54, 23);
+    border-radius: 20px;
+}
+
+.customTools {
+    position: relative;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+    top: -270px;
+    left: 800px;
+    border-radius: 10px;
+    background-image: url(https://previews.123rf.com/images/thungsarnphoto/thungsarnphoto1402/thungsarnphoto140200076/26140409-old-lathe-machine.jpg);
+    color: rgb(180, 146, 33);
+    text-align: center;
+    z-index: -1;
+    font-family: 'Rowdies', cursive;
+
+}
+.mainLists {
+position: relative;
+text-align: center;
+width: 100px;
+left: 175px;
+font-size: 15px;
+background-color: rgb(54, 54, 23);
+border-radius: 10px;
+}
+
+
+table,th,td,tr  {
+    position: relative;
+    border: 1px solid lightyellow;
+    color: lightyellow;
+    background-color: darkgoldenrod; 
+    border-collapse: collapse;
+
+
+}
+
+.ctlist {
+    font-family: 'Rowdies', cursive;
+    font-weight: bold;
+    
+}
+table {
+    position: relative;
+    top: -130px;
+    left: 550px;
+}
+
+.prhead {
+    position: relative;
+    Color: darkolivegreen;
+    padding: 20px;
+    margin: 5px;
+    width: 105px;
+    top: -150px;
+    left: 675px;
+    background-color: darkgoldenrod;
+    border: 3px solid lightyellow;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    top: 300px;
+    color:white;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+}
