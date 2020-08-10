@@ -1,0 +1,232 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgb(62, 63, 66);
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+
+nav {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    text-decoration: none;
+
+    height: 50px;
+    background-color: rgb(62, 63, 66);
+    text-decoration: none;
+}
+
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+
+    transition-property: font-size;
+    transition-duration: 2s;
+
+    
+}
+
+a:hover {
+    opacity: .5;
+    font-size: 27px;
+    
+}
+
+header {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(62, 63, 66);
+    Padding: 30px;
+    margin: 5px;
+    border: 10px outset gold;
+    font-family: 'Great Vibes', cursive;
+    color:whitesmoke;
+    font-size: 80px;
+}
+
+
+.acoustic  {
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    Background-color: orange;
+    opacity: .25;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid rgb(255, 208, 0);
+    font-size: 50px;
+
+}
+
+.acoustic-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5px;
+    width:600px;
+}
+
+.electric  {
+
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    Background-color: orange;
+    opacity: .25;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid rgb(255, 208, 0);
+    font-size: 50px;
+
+}
+
+.electric-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5px;
+    width: 600px;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    background-color: lightslategrey;
+    border-style: inset;
+    border-width: 5px;
+    border-color: black;
+}
+
+table   {
+    border-style: ridge;
+    border-width: 5px;
+    border-color: lightgray;
+    background-color: orange;
+    width: 500px;
+}
+
+th {
+    border: 3px solid black;
+    text-align: center;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+@media only screen and (min-width: 750px){
+
+    nav {
+        flex-direction: column;
+        justify-content: start;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        
+    }
+
+    a {
+        border: 2px solid black;
+    }
+
+    header {
+        grid-column: 3/-1;
+        grid-row: 1/2;
+        font-size: 40px;
+        padding: 30px;
+    }
+    .acoustic {
+        margin: 90px;
+    }
+
+    .electric {
+        margin: 90px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+   
+    header {
+        font-size: 80px;
+    }
+   
+    .acoustic {
+        position: relative;
+        left: 400px;
+        top: 100px;
+        margin: 10px;
+    }
+    
+    .acoustic-pic {
+        position: relative;
+        left: 700px;
+        top: 150px;
+    }
+    .a-info {
+        position: relative;
+        top: -775px;
+
+    }
+    .acoustic-table {
+        position: relative;
+        top: -775px;
+    }
+
+    .electric {
+        position: relative;
+        left: 400px;
+        top:-100px;
+    }
+    .electric-pic {
+        position: relative;
+        left: 700px;
+        top: -50px;
+    }
+    .e-info {
+        position: relative;
+        top: -675px;
+    }
+
+    .electric-table {
+        position: relative;
+        top: -675px;
+    }
+}
+
+
+
