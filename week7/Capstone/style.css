@@ -81,12 +81,7 @@ nav {
     transition-timing-function: ease-out;
     
 }
-
-a {
-    transition-property: background-color;
-    transition-duration: 2s;
-    transition-timing-function: ease-out;
-}
+   
 
 a:hover {
     color: lightsteelblue;
@@ -106,7 +101,6 @@ main>h1 {
     font-family: 'Dancing Script', cursive;
     color: rgb(104, 101, 101);
     
-
 }
 
 
