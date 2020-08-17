@@ -62,8 +62,6 @@ nav {
     position: fixed;
     width: 100%; 
     background-color:black;
-    color: burlywood;
-    font-size: 20px;
     opacity: .9;
     padding: 25px;
     margin: 0;
@@ -76,13 +74,24 @@ nav {
 
     text-decoration: none;
     color: burlywood;
+    font-size: 20px;
     padding: 10px;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
     
+}
+
+a {
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
 }
 
 a:hover {
     color: lightsteelblue;
     text-decoration-line: overline;
+    font-size: 50px;
 }
 
 main {
@@ -206,20 +215,12 @@ img {
         background-image: url(http://lccabinetry.com/images/woods/full-image/white-oak.jpg);
     }
     
-    nav {
-
-        position: fixed;
-        width: 100%;
-        background-color:black;
-        color: burlywood;
+    .nav-links {
         font-size: 40px;
-        opacity: .9;
-        padding: 25px;
-        margin: 0;
-        z-index: 15;
-        text-align: center;
-        
+    
     }
+
+    nav
 
     main>h1 {
         color: black;
