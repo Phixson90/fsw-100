@@ -83,7 +83,7 @@ nav {
 }
    
 
-a:hover {
+.nav-links:hover {
     color: lightsteelblue;
     text-decoration-line: overline;
     font-size: 50px;
@@ -151,6 +151,11 @@ footer {
     
 }
 
+.material-icons {
+    color: burlywood;
+    z-index: 100;
+}
+
 .email {
     text-decoration: none;
     color: burlywood;
@@ -213,8 +218,6 @@ img {
         font-size: 40px;
     
     }
-
-    nav
 
     main>h1 {
         color: black;
