@@ -1,0 +1,26 @@
+
+body {
+    background-image: url(tree_pic.jpg);
+}
+
+.paragraph {
+    color: white;
+    padding: 50px 50px 500px 50px;
+    font-family: 'Righteous', cursive; 
+}
+
+.first::first-letter {
+    font-size: 300%;
+    color: lightseagreen;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Srisakdi', cursive;
+    font-size: 100px;
+    color: lightseagreen;
+    font-weight: bolder;
+}
